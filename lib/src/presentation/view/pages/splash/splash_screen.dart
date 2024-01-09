@@ -1,9 +1,7 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:harvesthub_agro/src/presentation/view/pages/auth/otp_screen.dart';
-import 'package:harvesthub_agro/src/presentation/view/pages/language/select_language.dart';
 import 'package:harvesthub_agro/src/utils/constants/m_colors.dart';
 import 'package:harvesthub_agro/src/utils/constants/m_styles.dart';
 
@@ -48,7 +46,8 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
               child: Text('HarvestHub Agro', style: robotoRegular.copyWith(color: MyColor.colorPrimary, fontSize: 35),),
             ),
           ],
-        ));
+        )
+    );
   }
 }
 
